@@ -13,6 +13,8 @@ IPsec VPN 可以加密你的网络流量，以防止在通过因特网传送时�
 [**&raquo; 另见：IPsec VPN 服务器一键安装脚本**](https://github.com/hwdsl2/setup-ipsec-vpn/blob/master/README-zh.md)
 
 ## 快速开始
+docker build -f Dockerfile.debian -t ${image-l2tp}:${image-debian} .
+编译容器
 
 使用以下命令在 Docker 上快速搭建 IPsec VPN 服务器：
 
